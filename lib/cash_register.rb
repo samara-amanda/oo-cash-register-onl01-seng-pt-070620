@@ -30,8 +30,8 @@ class CashRegister
     if @items == 0
       @total == 0.0
     else
-      @items.pop
-      @total
+      @total = @total - (@last_item_price)
+
     end
   end
 
