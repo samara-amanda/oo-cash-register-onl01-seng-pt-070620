@@ -31,6 +31,7 @@ class CashRegister
       @total == 0.0
     else
       @items.pop
+      @total
     end
   end
 
