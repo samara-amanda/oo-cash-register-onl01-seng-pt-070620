@@ -32,7 +32,7 @@ class CashRegister
     else
       @items.pop
     end
-    ens
+  end
 
 
 end
